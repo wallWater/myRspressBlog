@@ -2,6 +2,12 @@ import * as path from 'path';
 import { defineConfig } from 'rspress/config';
 
 export default defineConfig({
+  builderConfig: {
+    output: {
+      assetPrefix: 'https://wallwater.github.io/myRspressBlog/',
+    },
+  },
+  base: '/myRspressBlog/',
   root: path.join(__dirname, 'docs'),
   title: '清生',
   description: 'Rspack-based Static Site Generator',
