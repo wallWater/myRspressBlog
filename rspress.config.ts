@@ -2,24 +2,23 @@ import * as path from 'path';
 import { defineConfig } from 'rspress/config';
 
 export default defineConfig({
- 
+  builderConfig: {
+    output: {
+      assetPrefix: 'https://wallwater.github.io/',
+    },
+  },
   base: '/myRspressBlog/',
   root: path.join(__dirname, 'docs'),
   title: '清生',
   description: 'Rspack-based Static Site Generator',
-  icon: "/myRspressBlog/rspress-icon.png",
+  icon: "/rspress-icon.png",
   logo: {
-    light: "/myRspressBlog/rspress-light-logo.png",
-    dark: "/myRspressBlog/rspress-dark-logo.png",
+    light: "/rspress-light-logo.png",
+    dark: "/rspress-dark-logo.png",
   },
   themeConfig: {
     socialLinks: [
       { icon: 'github', mode: 'link', content: 'https://github.com/web-infra-dev/rspress' },
     ],
-  },
-  builderConfig: {
-    output: {
-      assetPrefix: 'https://wallwater.github.io/myRspressBlog/',
-    },
   },
 });
