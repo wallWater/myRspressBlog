@@ -19,7 +19,7 @@ export default defineConfig({
   },
   builderConfig: {
     output: {
-      assetPrefix: 'https://wallwater.github.io/',
+      assetPrefix: 'https://wallwater.github.io/myRspressBlog/',
     },
   },
 });
