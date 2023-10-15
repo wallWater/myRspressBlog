@@ -7,7 +7,7 @@ export default defineConfig({
       assetPrefix: 'https://wallwater.github.io/myRspressBlog/',
     },
   },
-  base: '/myRspressBlog/',
+  
   root: path.join(__dirname, 'docs'),
   title: '清生',
   description: 'Rspack-based Static Site Generator',
