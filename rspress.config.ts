@@ -7,10 +7,10 @@ export default defineConfig({
   root: path.join(__dirname, 'docs'),
   title: '清生',
   description: 'Rspack-based Static Site Generator',
-  icon: "./rspress-icon.png",
+  icon: "/myRspressBlog/rspress-icon.png",
   logo: {
-    light: "./rspress-light-logo.png",
-    dark: "./rspress-dark-logo.png",
+    light: "/myRspressBlog/rspress-light-logo.png",
+    dark: "/myRspressBlog/rspress-dark-logo.png",
   },
   themeConfig: {
     socialLinks: [
