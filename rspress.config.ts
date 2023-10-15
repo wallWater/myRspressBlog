@@ -9,8 +9,8 @@ export default defineConfig({
   description: 'Rspack-based Static Site Generator',
   icon: "/rspress-icon.png",
   logo: {
-    light: "/rspress-light-logo.png",
-    dark: "/rspress-dark-logo.png",
+    light: "https://wallwater.github.io/myRspressBlog/rspress-dark-logo.png",
+    dark: "https://wallwater.github.io/myRspressBlog/rspress-dark-logo.png",
   },
   themeConfig: {
     socialLinks: [
