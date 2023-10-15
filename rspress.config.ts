@@ -2,11 +2,7 @@ import * as path from 'path';
 import { defineConfig } from 'rspress/config';
 
 export default defineConfig({
-  builderConfig: {
-    output: {
-      assetPrefix: 'https://wallwater.github.io/myRspressBlog/',
-    },
-  },
+ 
   
   root: path.join(__dirname, 'docs'),
   title: '清生',
@@ -20,5 +16,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', mode: 'link', content: 'https://github.com/web-infra-dev/rspress' },
     ],
+  },
+  builderConfig: {
+    output: {
+      assetPrefix: 'https://wallwater.github.io/myRspressBlog/',
+    },
   },
 });
